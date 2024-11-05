@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --navy-900: #0a192f;
+    --navy-800: #112240;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-navy-900 text-gray-300;
+  }
+}
+
+.bg-grid-pattern {
+  background-image: linear-gradient(to right, #1e293b 1px, transparent 1px),
+    linear-gradient(to bottom, #1e293b 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
