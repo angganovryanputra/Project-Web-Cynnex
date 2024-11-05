@@ -1,3 +1,4 @@
-# Project-Web-Cynnex
+# COMING SOON
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/angganovryanputra/Project-Web-Cynnex)
+
+By mxz4rt
